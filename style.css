@@ -1,0 +1,35 @@
+.navigace ul {
+    list-style-type:none ;
+    background-color: rgb(31, 204, 204);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navigace a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    
+}
+.navigace a:hover {
+    background-color: rgb(37, 76, 88);
+}
+.navigace li {
+    float: left;
+}
+h1 {
+    text-align: center;
+}
+
+.cont {
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+}
+
+.karta1 {
+    grid-row: 1 ;
+}
